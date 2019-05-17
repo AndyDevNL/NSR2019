@@ -1,0 +1,73 @@
+.header {
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+  padding-top: 30%;
+
+  &--front {
+    padding-top: 35%;
+  }
+  
+  &__slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;  
+  }
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;  
+  }
+
+  &__title {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    background-color: $secondary-color;
+    padding-left: 5%;
+    padding-top: 1.75%;
+    height: 20%;
+    width: 100%;
+    z-index: 101;
+  }
+
+  &__nav {
+    position: fixed;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+  }
+
+  &__navElem {
+    display: inline-block;
+
+    &--logo {
+      height: 10rem;
+    }
+
+    &--nav {
+      // margin-left: 5rem;
+    }
+  }
+}
+
+.is-scrolled {
+  .header {
+      &__nav {
+      position: fixed;
+      top: 25px;
+      left: 0;
+      width: 100%;
+      z-index: 200;
+      background: $white;
+    }
+  }
+}

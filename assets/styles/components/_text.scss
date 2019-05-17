@@ -1,0 +1,13 @@
+.text {
+  font-family: DIN;
+  
+  &--slider {
+    color: $white;
+    font-size: 3rem;
+  }
+
+  &--footer{
+    color: white;
+    font-size: 1.5rem;
+  }
+}

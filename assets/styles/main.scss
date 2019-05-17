@@ -1,0 +1,36 @@
+/*
+ * Theme Name: NSR Genesis
+ * Description: Theme for Student Society Navigators Rotterdam made with timber & twig for Wordpress
+ * Author: Andreas Sharoubim & Maarten van Willigen
+*/
+
+/** Import everything from autoload */
+// @import "./autoload/**/*";
+
+/** Import theme styles */
+@import "vendor/materialize";
+@import "common/variables";
+@import "common/font-face";
+@import "common/normalize";
+@import "common/scaffolding";
+@import "common/helpers";
+@import "common/global";
+@import "components/text";
+@import "components/title";
+@import "components/footer";
+@import "components/header";
+@import "components/content";
+@import "components/icon";
+@import "components/slider";
+@import "components/image";
+@import "nav/nav-primary";
+@import "nav/nav-sec";
+
+
+
+
+
+
+
+
+

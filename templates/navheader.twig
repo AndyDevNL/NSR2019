@@ -1,0 +1,12 @@
+<div class="row header__nav">
+  <div class="header__navElem header__navElem--logo col s12 m3 l4">
+    <div class="MainIcon">
+      <a class="LogoLink" href="{{site.url}}" rel="home">
+            {% include "assets/images/svg/nsrlogo.svg" %}  
+      </a>
+    </div>
+  </div>
+  <nav id="nav-main" class="nav-main header__navElem header__navElem--nav col s12 m8 l7" role="navigation">
+    {% include "menu.twig" with {'menu': menu.get_items} %}
+  </nav><!-- #nav -->
+</div>

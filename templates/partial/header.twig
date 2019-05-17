@@ -1,0 +1,16 @@
+<header class="header header--front container headerContainer">
+  {% include 'navheader.twig' %}
+
+  <div class="header__slider">
+    <div class="single-slide">
+      <img class="single-slide__image" src="{{ Image(post.meta('slider_image')).src }}" />
+      <div class="single-slide__overlay">
+      </div>
+      <div class="single-slide__text">
+        <h1 class="text text--slider">
+          {{ post.meta('slider_text') }}
+        </h1>
+      </div>
+    </div>
+  </div>
+</header>

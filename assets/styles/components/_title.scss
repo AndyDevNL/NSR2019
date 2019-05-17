@@ -1,0 +1,23 @@
+.title {
+  font-family: 'DIN';
+
+  color: $secondary-color;
+  
+  &--med {
+    font-size: $title-size-med;
+  }
+
+  &--pageBanner {
+    color: $white;
+    font-size: $title-size-med;
+  }
+
+  &__priMenu {
+
+  }
+
+  &--secMenu {
+    color: $primary-color;
+    font-size: 2rem;
+  }
+}

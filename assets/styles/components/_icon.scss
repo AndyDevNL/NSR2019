@@ -1,0 +1,66 @@
+.MainIcon {
+  // position: absolute;
+  // top: 3rem;
+  // left: 10rem;
+  height: inherit;
+  width: 55%;
+  padding-left: 10%;
+
+  svg {
+    transition: ;
+  }
+}
+
+.socwapen {
+  fill: $primary-color;
+}
+
+.nsrwapen-3{
+  fill: $primary-color;
+}
+
+.nsrlogo-1 {
+  fill: $white;
+}
+
+.nsrlogo-2 {
+  fill: $primary-color;
+}
+
+.MainIcon:hover {
+  svg {
+    .nsrlogo-1 {
+      fill: $primary-color;
+    }
+
+    .nsrlogo-2 {
+      fill: $secondary-color;
+    }
+  }
+}
+
+.is-scrolled {
+  .MainIcon {
+    width: 40%;
+  }
+
+  .nsrlogo-1 {
+    fill: $primary-color;
+  }
+
+  .nsrlogo-2 {
+    fill: $secondary-color;
+  }
+
+  .MainIcon:hover {
+    svg {
+      .nsrlogo-1 {
+        fill: $secondary-color;
+      }
+
+      .nsrlogo-2 {
+        fill: $primary-color;
+      }
+    }
+  }
+}

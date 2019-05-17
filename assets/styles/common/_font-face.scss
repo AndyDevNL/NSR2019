@@ -1,0 +1,13 @@
+/** Webfonts */
+@font-face {
+  font-family: 'Catamaran';
+  src: url('../fonts/Catamaran-Thin.woff2') format('woff2'), url('../fonts/Catamaran-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN';
+  src: url('../fonts/DIN-Medium.ttf') format('ttf');
+  font-weight: 100;
+  font-style: normal;
+}

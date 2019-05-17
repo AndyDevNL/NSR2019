@@ -1,0 +1,27 @@
+{% block footer %}
+  <footer class="footer" id="footer">
+    <div class="container footerContainer">
+      <div class="row">
+        <div class="footer__contact col s12 m4">
+          <h1 class="title title--secMenu">Contact</h1>
+          <p class="text text--footer">Eendrachtsplein 10</p>
+          <p class="text text--footer">3012 LA, Rotterdam</p>
+          <p class="text text--footer">0653473064</p>
+        </div>
+        <div class="footer__secMenu col s12 m4">
+          {% include "secmenu.twig" with {'menu': menu.get_items} %}
+        </div>
+        <div class="footer__icons col s12 m4">
+          <div class="col s12 m6">
+            {% include "assets/images/svg/nsrwapen.svg" %}
+          </div>
+          <div class="col s12 m6">
+            {% include "assets/images/svg/socwapen.svg" %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {# Copyright {{"now"|date('Y')}} #}
+  </footer>
+  {{ function('wp_footer') }}
+{% endblock %}

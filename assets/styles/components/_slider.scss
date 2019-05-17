@@ -1,0 +1,20 @@
+.single-slide {
+  position: relative;
+
+  &__overlay {
+    background-color: $secondary-color;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__text {
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    left: 8rem;
+  }
+}
